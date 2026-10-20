@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE peliculas [
+<!ELEMENT peliculas (pelicula+)>
+<!ELEMENT pelicula (titulo,director,pais,anio,genero)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT interprete (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT estilo (#PCDATA)>
+]>
+<peliculas>
+    <pelicula>
+        <titulo>Una pelicula de Minecraft</titulo>
+  <director>Jared Hess</director>
+  <pais>Estados Unidos</pais>
+  <anio>2025</anio>
+  <genero>Aventura/Fantasia/Comedia</genero>      
+    </pelicula>
+</peliculas>
+<peliculas>
+    <pelicula>
+        <titulo>Lilo y Stich</titulo>
+  <director>Dean Fleischer Camp</director>
+  <pais>Estados Unidos</pais>
+  <anio>2025</anio>
+  <genero>Aventura/Ciencia Ficcion/Comedia</genero>      
+    </pelicula>
+</peliculas>
+<peliculas>
+    <pelicula>
+        <titulo>Elio</titulo>
+  <director>Adrian Molina, Madeline Sharafian y Domee Shi</director>
+  <pais>Estados Unidos</pais>
+  <anio>2025</anio>
+  <genero>Aventura/Ciencia Ficcion/Comedia</genero>      
+    </pelicula>
+</peliculas>
+<peliculas>
+    <pelicula>
+        <titulo>Superman</titulo>
+  <autor>James Gunn</autor>
+  <pais>Estados Unidos</pais>
+  <anio>2025</anio>
+  <genero>Aventura/Superheroes/Ciencia Ficcion</genero>      
+    </pelicula>
+</peliculas>
